@@ -37,39 +37,7 @@ public class AccountImpl implements Account {
 
     }
 
-//    public static void main(String[] args) throws SQLException {
-//        //creating a connection
-//        String url = "jdbc:postgresql://localhost/test";
-//        Connection conn = null;
-//
-//        User user = new User();
-//        user.setAccountNumber(user.getAccountNumber());
-//        user.setFirstName("dam");
-//        user.setLastName("sam");
-//        user.setPin(1111);
-//
-//        String sql = "insert into user(firstname, lastname, pin) " + "values(" + user.getFirstName() + ",'" + user.getLastName() + "'," + user.getPin() + "',"+ user.getAccountNumber() +")";
-//
-//        //String sql1 = "insert into student(rollno, name, age) " + "values(" + rollno + ",'" + name + "'," + age + ")" ;
-//
-//        try {
-//            conn = DriverManager.getConnection(url, "postgres", "anthonia");
-//
-//            Statement st = conn.createStatement();
-//            int m = st.executeUpdate(sql);
-//            if (m == 1)
-//                System.out.println("inserted successfully: " + sql);
-//            else
-//                System.out.println("insertion failed");
-//        } catch (Exception ex) {
-//            System.err.println(ex);
-//        } finally {
-//            conn.close();
-//        }
-//
-//
-//    }
-
+    
     @Override
     public void OpenAccount() {
 
